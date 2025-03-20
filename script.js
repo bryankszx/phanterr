@@ -1,9 +1,9 @@
-document.getElementById('registerForm').addEventListener('submit', function(event) {
+document.getElementById('FormularioRegistro').addEventListener('submit', function(event) {
     event.preventDefault();
     alert('Cadastro realizado com sucesso!');
 });
 
-document.getElementById('loginForm').addEventListener('submit', function(event) {
+document.getElementById('FormularioLogin').addEventListener('submit', function(event) {
     event.preventDefault();
     alert('Login realizado com sucesso!');
 });
